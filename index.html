@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
     <title>First Odin Project</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/pizza.html">Pizza Recipe</a></li>
-        <li><a href="./recipes/cheese.html">Cheese Sandwich</a></li>
-        <li><a href="./recipes/choco.html">Chocolate Cake</a></li>
-    </ul>
+    <div class="header">
+        <img class="image" src="./img/recipe-icon.svg" alt="recipe icon" height="20px" width="20px">
+        <h1 class="title">Odin Recipes</h1>
+    </div>
+
+    <div class="selection">
+        <ul class="list">
+            <li class="pizza card">
+                <a class="link" href="./recipes/pizza.html">
+                    <img class="image" src="./img/pizza.jpg" alt="pepperoni pizza" height="auto" width="300px">
+                    <p class="text">Pizza Recipe</p>
+                </a> 
+            </li>
+
+            <li class="cheese card">
+                <a class="link" href="./recipes/cheese.html">
+                    <img class="image" src="./img/cheese.jpg" alt="cheese sandwich" height="auto" width="300px">
+                    <p class="text">Cheese Sandwich Recipe</p>
+                </a>
+            </li>
+
+            <li class="choco card">
+                <a class="link" href="./recipes/choco.html">
+                    <img class="image" src="./img/choco.jpg" alt="chocolate cake" height="auto" width="300px">
+                    <p class="text">Chocolate Cake Recipe</p>
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
