@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F9F8F6;
+}
+
+.header {
+    display: block;
+    background-color: #C9B59C;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.header .image {
+    display: inline-block;
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.header .title {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #1c1812;
+    vertical-align: middle;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    background-color: #D9CFC7;
+    padding: 40px;
+    margin: 20px;
+    gap: 40px;
+}
+
+.summary .image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.summary .text {
+    flex: 1;
+}
+
+.summary .text .heading {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #423b32;
+    margin-bottom: 40px;
+}
+
+.summary .text .paragraph {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #706455;
+    margin-bottom: 20px;
+}
+
+.chapter {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #423b32;
+    margin: 40px auto 20px 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #D9CFC7;
+    padding: 40px;
+    margin: 20px;
+}
+
+.section .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section .text {
+    flex: 1;
+}
+
+.section .text .title {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #423b32;
+    margin-bottom: 40px;
+}
+
+.section .text .list {
+    list-style-position: inside;
+}
+
+.section .text .list .text {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #706455;
+}
+
+.steps {
+    background-color: #D9CFC7;
+    padding: 40px;
+    margin: 20px;
+}
+
+.steps .text{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #706455;
+}
+
+.home-button {
+    display: block;
+    margin: 40px auto;
+    max-width: fit-content;
+    text-decoration: none;
+    padding:  10px 20px;
+    background-color: #C9B59C;
+    border-radius: 100vh;
+    transition: filter 0.3s ease;
+}
+
+.home-button:hover {
+    filter: brightness(0.8);
+}
+
+.home-button .image {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.home-button .text {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #1c1812;
+    vertical-align: middle;
+}
